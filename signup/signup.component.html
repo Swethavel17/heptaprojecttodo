@@ -1,0 +1,44 @@
+<section>
+    <div id="container">
+        <form >
+            <div>
+                <div >
+                    <input type="text" id="name" class="form-control" formControlName="name" placeholder=" First name"><br><br>
+                    <span *ngIf="!signupForm.get('form.name').valid && signupForm.get('form.name').touched">
+                    </span>
+                </div>
+                <div >
+                    <input type="text" id="name1" class="form-control" formControlName="name1" placeholder=" Last name"><br><br>
+                    <span *ngIf="!signupForm.get('form.name').valid && signupForm.get('form.name').touched">
+                    </span>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="email" class="form-control" formControlName="email" placeholder="Enter your email"><br><br>
+                    <span *ngIf="!signupForm.get('form.email').valid && signupForm.get('form.email').touched">
+                    </span>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="phonenumber" class="form-control" formControlName="phonenumber" placeholder="Enter your phone number"><br><br>
+                    <span *ngIf="!signupForm.get('form.phonenumber').valid && signupForm.get('form.phonenumber').touched">
+                    </span>
+                </div>
+                <div >
+                    <input type="text" id="password" class="form-control" formControlName="password" placeholder=" Password"><br><br>
+                    <span *ngIf="!signupForm.get('form.name').valid && signupForm.get('form.name').touched">
+                    </span>
+                </div>
+                <div >
+                    <input type="text" id="confrimpassword" class="form-control" formControlName="confrim password" placeholder=" Confrim Password">
+                    <span *ngIf="!signupForm.get('form.name').valid && signupForm.get('form.name').touched">
+                    </span>
+                </div>
+               
+                
+                <div class="button">
+                    <button class="btn btn-warning" type="submit"id="signup" routerLink="/todos">Sign Up</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+

@@ -1,0 +1,25 @@
+body{
+    background-color:gray;
+}
+#overview{
+    color:rgb(235, 18, 36);
+}
+#about{
+    position:absoute;
+    margin-left:60px;
+}
+#image{
+    position:absoute;
+    margin-left:500px;
+    margin-top:-10px;
+}
+#quotes{
+    margin-left:150px;
+    color:rgb(230, 19, 149);
+}
+#health{
+    margin-left: 50px;
+}
+#title{
+    margin-left:20px;
+}
